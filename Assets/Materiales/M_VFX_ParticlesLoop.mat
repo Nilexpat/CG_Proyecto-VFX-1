@@ -7,37 +7,39 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_VFX_HorizontalFlare
+  m_Name: M_VFX_ParticlesLoop
   m_Shader: {fileID: -6465566751694194690, guid: e12a1a542c0883c4193bfc8718179e83, type: 3}
-  m_Parent: {fileID: 2100000, guid: 014a8b8d32720d34e8f61e9e482d4599, type: 2}
-  m_ModifiedSerializedProperties: 18
+  m_Parent: {fileID: 2100000, guid: d0dc4855babef7442a93d407490a043f, type: 2}
+  m_ModifiedSerializedProperties: 2
   m_ValidKeywords:
   - _SURFACE_TYPE_TRANSPARENT
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_InvalidKeywords:
+  - _EMISSION
+  - _FLIPBOOKBLENDING_OFF
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: -1
   stringTagMap:
     RenderType: Transparent
   disabledShaderPasses:
-  - MOTIONVECTORS
   - DepthOnly
+  - MOTIONVECTORS
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 68bae618ec3eaca4c85b04dc9191fbb9, type: 3}
+        m_Texture: {fileID: 10912, guid: 0000000000000000f000000000000000, type: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats: []
     m_Colors:
-    - _Color: {r: 2.7814822, g: 2.7814822, b: 2.7814822, a: 1}
+    - _Color: {r: 1.9999998, g: 1.9999998, b: 1.9999998, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &4090217102569840432
+--- !u!114 &1735836223451988002
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
