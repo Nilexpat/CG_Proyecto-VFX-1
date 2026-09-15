@@ -94,7 +94,7 @@ MonoBehaviour:
   - m_Version: 1
     m_Start: 1.3333333333333333
     m_ClipIn: 0
-    m_Asset: {fileID: 4176882458553627817}
+    m_Asset: {fileID: -4796191863423063675}
     m_Duration: 1
     m_TimeScale: 1
     m_ParentTrack: {fileID: -7191922254325004797}
@@ -159,7 +159,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: VFX_Slash1 (1)
+    m_DisplayName: VFX_Slash1
   m_Markers:
     m_Objects: []
 --- !u!114 &-5353694877021423931
@@ -254,6 +254,30 @@ MonoBehaviour:
     m_DisplayName: VFX_Slash1 (1)
   m_Markers:
     m_Objects: []
+--- !u!114 &-4796191863423063675
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48853ae485fa386428341ac1ea122570, type: 3}
+  m_Name: ControlPlayableAsset
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.ControlPlayableAsset
+  sourceGameObject:
+    exposedName: 4a1956e2b2317d64c8a3a839fe9fae50
+    defaultValue: {fileID: 0}
+  prefabGameObject: {fileID: 0}
+  updateParticle: 1
+  particleRandomSeed: 1732
+  updateDirector: 1
+  updateITimeControl: 1
+  searchHierarchy: 0
+  active: 1
+  postPlayback: 2
+  directorOnClipEnd: 0
 --- !u!114 &-4405977823688906007
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -598,7 +622,7 @@ MonoBehaviour:
   - {fileID: 3237240735134766837}
   - {fileID: -3867560547415161385}
   - {fileID: -4405977823688906007}
-  m_FixedDuration: 4.666666666666667
+  m_FixedDuration: 4.883333333333334
   m_EditorSettings:
     m_Framerate: 60
     m_ScenePreview: 1
@@ -968,30 +992,6 @@ MonoBehaviour:
   m_Loop: 0
   m_Version: 1
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
---- !u!114 &4176882458553627817
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48853ae485fa386428341ac1ea122570, type: 3}
-  m_Name: ControlPlayableAsset
-  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.ControlPlayableAsset
-  sourceGameObject:
-    exposedName: de1dd34e99e8d5d409824218a9cce9c6
-    defaultValue: {fileID: 0}
-  prefabGameObject: {fileID: 0}
-  updateParticle: 1
-  particleRandomSeed: 8058
-  updateDirector: 1
-  updateITimeControl: 1
-  searchHierarchy: 0
-  active: 1
-  postPlayback: 2
-  directorOnClipEnd: 0
 --- !u!114 &5936433092030089795
 MonoBehaviour:
   m_ObjectHideFlags: 1
