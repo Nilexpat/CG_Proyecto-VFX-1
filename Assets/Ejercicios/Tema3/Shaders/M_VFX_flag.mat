@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_VFX}_PirateConin
-  m_Shader: {fileID: -6465566751694194690, guid: 6c9e89651b54eac4699397b3085abbe3, type: 3}
+  m_Name: M_VFX_flag
+  m_Shader: {fileID: -6465566751694194690, guid: cae6af6244ff2c14fa7af1a34474beca, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -25,19 +25,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: d75cfc5cdfb618848ba81efaf20ab2be, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Metalic:
-        m_Texture: {fileID: 2800000, guid: 0a3469efa564f3c4caf195b1adaea4b9, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Normal:
-        m_Texture: {fileID: 2800000, guid: 8e29d1c485dc4ed40a442b9f4bf9fd8e, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Roughness:
-        m_Texture: {fileID: 2800000, guid: 5172982a7c52ce3409a6ce87510393bc, type: 3}
+        m_Texture: {fileID: 2800000, guid: e38fbdb60adf7dd44acd0792c5653ce5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -54,19 +42,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AngularSpeed: 90
-    - _HoverFrecuency: 1
-    - _MetalicStrenght: 1
-    - _NormaStrenght: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RougnessStrenght: 1
-    m_Colors:
-    - _HoverAxis: {r: 0, g: 0, b: 1, a: 0}
-    - _RotationAxis: {r: 0, g: 0, b: 1, a: 0}
+    m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &6981461723924529901
+--- !u!114 &5605562884199206099
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
