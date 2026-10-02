@@ -5025,6 +5025,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PirateCoinURP
       objectReference: {fileID: 0}
+    - target: {fileID: 4615263763417428913, guid: 83102344d089716f8b3244493c5cf9f3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5424415722833586443, guid: 83102344d089716f8b3244493c5cf9f3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -15353,6 +15357,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fd7d3921c07bae94b997359d944d55a6, type: 3}
       propertyPath: m_Name
       value: SM_VFX_Flag
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd7d3921c07bae94b997359d944d55a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
