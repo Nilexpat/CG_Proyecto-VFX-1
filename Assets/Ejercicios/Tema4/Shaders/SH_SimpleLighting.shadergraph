@@ -115,6 +115,9 @@
         },
         {
             "m_Id": "8b98b7acd8694965bf85a00aa3a6401c"
+        },
+        {
+            "m_Id": "94cab758eab3431ba09900de5acd51ef"
         }
     ],
     "m_GroupDatas": [
@@ -1226,7 +1229,7 @@
     "m_Title": "Blinn_Phong Specular",
     "m_Position": {
         "x": -3260.0,
-        "y": 2403.199951171875
+        "y": 2403.2001953125
     }
 }
 
@@ -2069,7 +2072,7 @@
     "m_Title": "Lambert( Per Pixel)",
     "m_Position": {
         "x": -2304.0,
-        "y": 296.800048828125
+        "y": 296.7999572753906
     }
 }
 
@@ -2096,6 +2099,31 @@
         "w": 0.0
     },
     "m_LiteralMode": false
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
+    "m_ObjectId": "86296223a93c4575a3194170085ce844",
+    "m_Id": 1,
+    "m_DisplayName": "Out_Vector4",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "OutVector4",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
+    "m_Labels": []
 }
 
 {
@@ -2402,6 +2430,44 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.SubGraphNode",
+    "m_ObjectId": "94cab758eab3431ba09900de5acd51ef",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Get Main Light",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -2978.39990234375,
+            "y": 224.8000030517578,
+            "width": 207.999755859375,
+            "height": 278.39996337890627
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "86296223a93c4575a3194170085ce844"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 1,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_SerializedSubGraph": "{\n    \"subGraph\": {\n        \"fileID\": -5475051401550479605,\n        \"guid\": \"ebe67ac14c5631b4aad1a4056dbfa08f\",\n        \"type\": 3\n    }\n}",
+    "m_PropertyGuids": [],
+    "m_PropertyIds": [],
+    "m_Dropdowns": [],
+    "m_DropdownSelectedEntries": []
 }
 
 {
@@ -3295,8 +3361,8 @@
     "m_ObjectId": "e94a1ecac82e4bb88b564a54e5b7f685",
     "m_Title": "Phong Specular",
     "m_Position": {
-        "x": -2673.600341796875,
-        "y": 1384.7999267578125
+        "x": -2673.60009765625,
+        "y": 1384.800048828125
     }
 }
 
@@ -3587,8 +3653,8 @@
     "m_ObjectId": "f9c0ee04d1854ac5b14fc3f726e76277",
     "m_Title": "Lambert",
     "m_Position": {
-        "x": -1768.0,
-        "y": -695.2000732421875
+        "x": -1767.9998779296875,
+        "y": -695.199951171875
     }
 }
 
