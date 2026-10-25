@@ -30,6 +30,9 @@
     "m_CategoryData": [
         {
             "m_Id": "790c8062c7254ca9b7cb5d27ad719f97"
+        },
+        {
+            "m_Id": "fa37da12cbff47d795fe13b97dc1ea7a"
         }
     ],
     "m_Nodes": [
@@ -5271,13 +5274,7 @@
     "m_Name": "",
     "m_ChildObjectList": [
         {
-            "m_Id": "2652459465fd45d2b9d62d72dca76f7e"
-        },
-        {
-            "m_Id": "0b4c6dd4765e47dbb9706931f3ebdbc5"
-        },
-        {
-            "m_Id": "dca2a7eb67224d9bb80f78206ca7f309"
+            "m_Id": "e36a160d15b845239b9300d0a89c94e4"
         },
         {
             "m_Id": "3588329e19304ef18fc9c3db2e1b2b70"
@@ -5286,10 +5283,7 @@
             "m_Id": "14d86778d3b1441b97d0a4c8a766d2ab"
         },
         {
-            "m_Id": "719c792cfc2645aea256df667d98b66c"
-        },
-        {
-            "m_Id": "e36a160d15b845239b9300d0a89c94e4"
+            "m_Id": "0b4c6dd4765e47dbb9706931f3ebdbc5"
         }
     ]
 }
@@ -7300,7 +7294,7 @@
     "m_ObjectId": "d72701fcd3fa4641a696963476727806",
     "m_Title": "Aspect Ratio",
     "m_Position": {
-        "x": -2520.00048828125,
+        "x": -2520.0,
         "y": -188.79998779296876
     }
 }
@@ -8455,6 +8449,24 @@
     "m_DefaultValue": 0.0,
     "m_Labels": [],
     "m_LiteralMode": false
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.CategoryData",
+    "m_ObjectId": "fa37da12cbff47d795fe13b97dc1ea7a",
+    "m_Name": "Half Tones",
+    "m_ChildObjectList": [
+        {
+            "m_Id": "719c792cfc2645aea256df667d98b66c"
+        },
+        {
+            "m_Id": "2652459465fd45d2b9d62d72dca76f7e"
+        },
+        {
+            "m_Id": "dca2a7eb67224d9bb80f78206ca7f309"
+        }
+    ]
 }
 
 {
