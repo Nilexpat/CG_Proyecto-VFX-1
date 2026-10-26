@@ -18,7 +18,7 @@ void GetMainLight_float(float3 positionWS, out float3 directionWS, out float3 co
 #endif
 }
 
-void SimpleLightingAdditional_float(float2 UVSS, float3 normalWS, float3 viewDirWS, float3 positionWS, float roughness,
+void SimpleLightingAdditiona_float(float2 UVSS, float3 normalWS, float3 viewDirWS, float3 positionWS, float roughness,
     out float3 lit)
 {
 #if defined(SHADERGRAPH_PREVIEW)
