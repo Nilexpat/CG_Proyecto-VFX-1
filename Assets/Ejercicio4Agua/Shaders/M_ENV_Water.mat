@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: M_ENV_Water
-  m_Shader: {fileID: -6465566751694194690, guid: d54b740602435c24984cb9c5c900b043, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 3b7686f8fb542e44c8ff87bbfede1c58, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -38,19 +38,19 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Cubemap:
-        m_Texture: {fileID: 8900000, guid: 43adf4d7cdb658346bdc3417ef7490a8, type: 3}
+        m_Texture: {fileID: 8900000, guid: eb3d6a9bddd74c9daab6878848728649, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Norma1:
-        m_Texture: {fileID: 2800000, guid: 5e333edc53dbf9b4bbd293795c8fad15, type: 3}
+        m_Texture: {fileID: 2800000, guid: 60f9c2990a64f58448052749ec316cdf, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Norma2:
-        m_Texture: {fileID: 2800000, guid: fa119458325d0884ea13d1c571a36bc3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3dc7743b97288334eb99bfa8085d5a32, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Norma3:
-        m_Texture: {fileID: 2800000, guid: 4edf753d200e1ad4684e25df41851fde, type: 3}
+        m_Texture: {fileID: 2800000, guid: 678b1e8704f352047986d229990ca23c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -67,19 +67,36 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Cartoon: 0
+    - _CartoonBrilloUmbral: 0.5
+    - _CartoonLineasEscala: 1.2
+    - _CartoonLineasFuerza: 0.8
+    - _CartoonLineasGrosor: 0.035
+    - _CartoonTransparencia: 0.3
+    - _CrestaRango: 0.2
+    - _CrestaUmbral: 0.72
+    - _EspumaDistance: 0.8
+    - _EspumaNoise: 2.5
+    - _EspumaSoftness: 0.04
     - _NormalStrength: 0.05
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _ReflaccionStrength: 142.62
+    - _ReflaccionStrength: 143.68
     m_Colors:
     - _AdsortionColor: {r: 0, g: 0.023418, b: 0.6528301, a: 1}
-    - _DeformationParamts: {r: 0.5, g: -0.3, b: -10, a: 0.01}
+    - _CartoonBandas: {r: 1, g: 2.6, b: 0, a: 0}
+    - _CartoonColorClaro: {r: 0.25, g: 0.85, b: 0.95, a: 1}
+    - _CartoonColorProfundo: {r: 0.03, g: 0.35, b: 0.72, a: 1}
+    - _CartoonLineasVelocidad: {r: -0.1, g: 0.07, b: 0, a: 0}
+    - _DeformationParamts: {r: 0.5, g: -0.3, b: -10, a: 0.02}
     - _DensityParams: {r: -1, g: 1, b: 0, a: 0}
     - _DepthColor: {r: 0, g: 0.0032522907, b: 0.38113198, a: 1}
+    - _EspumaColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EspumaSpeed: {r: 0.15, g: 0.1, b: 0, a: 0}
     - _Intersection: {r: 0, g: 0.5, b: 0, a: 0}
     - _LightScatterParams: {r: 0, g: 5.03, b: 0, a: 0}
     - _Normal1Paramts: {r: 0.5, g: -1, b: 10, a: 0}
     - _Shallowcolor: {r: 0, g: 0.9202986, b: 1, a: 1}
-    - _TransmitanceParams: {r: 0, g: 3.91, b: 0, a: 0}
+    - _TransmitanceParams: {r: 0, g: 3.96, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
