@@ -46,7 +46,7 @@ Material:
     - _QueueOffset: 0
     - _SpecularPower: 5
     m_Colors:
-    - _CircleParams: {r: 2, g: 0.01, b: 20, a: 0}
+    - _CircleParams: {r: 2, g: 0.01, b: 125.3, a: 0}
     - _Color: {r: 1, g: 0.78105474, b: 0, a: 1}
     - _OutlineColor: {r: 1, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
