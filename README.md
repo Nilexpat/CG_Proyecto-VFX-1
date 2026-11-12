@@ -20,4 +20,4 @@ Link video: https://drive.google.com/drive/folders/1Ea5XVcPZO4W1wy8BrASB3QKTrPPE
 
 ID: 000491733
 
-Link GitHub Page: 
+Link GitHub Page: https://nilexpat.github.io/CG_Proyecto-VFX-1
